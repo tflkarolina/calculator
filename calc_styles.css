@@ -1,0 +1,76 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:rgb(187, 117, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;       /*kalkulator jest na srodku*/
+    
+}
+
+.calculator{
+    background-color: rgb(178, 157, 187);
+    padding: 20px;
+    border-radius: 20px; /*zaokraglam rogi kalkulatora */
+    width: 345px;
+    height: 580px;
+    box-shadow: rgba(104, 103, 104, 0.589) 5px 5px 10px;
+}
+
+.screen{
+    background-color:azure;
+    text-align: end;
+    font-size: xxx-large;
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: rgba(104, 103, 104, 0.589) 5px 5px 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color:rgb(163, 98, 224);
+    color: azure;   /*kolor czcionki*/
+    font-size: x-large;
+    border-radius: 55px; /*okragle przyciski */
+    width: 75px;
+    height: 75px;
+    margin: 5px; /*przerwa miedzy przycskami */
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    box-shadow: rgba(75, 73, 73, 0.589) 5px 5px 10px;   /*cien*/
+    transition: all .1s ease-in-out;  /*ladniejsze przechodzenie miedzy przyciskami (po najechaniu na nie)*/
+    cursor: pointer;
+}
+s
+/* hover-przyciemnienie przy najechaniu na przycisk */
+
+button:hover {
+    background-color: rgb(87, 78, 87);
+}
+
+#equals {
+    background-color: rgb(162, 0, 255);
+    width: 47%;
+}
+
+#equals:hover {
+    background-color: rgb(116, 108, 116);
+}
+
+#clear {
+    background-color: rgb(162, 0, 255);
+    width: 70%;
+}
+
+#clear:hover {
+    background-color: rgb(116, 108, 116);
+}
